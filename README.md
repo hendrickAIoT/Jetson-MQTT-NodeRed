@@ -29,6 +29,7 @@ ifconfig
 # ESP32
 Installing the PubSubClient Library
 The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED).
+PubSubClinet download link https://github.com/knolleary/pubsubclient
 
 Click here to download the PubSubClient library. You should have a .zip folder in your Downloads folder
 Unzip the .zip folder and you should get pubsubclient-master folder
