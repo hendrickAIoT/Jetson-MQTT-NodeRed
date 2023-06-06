@@ -7,6 +7,6 @@ IOT using MQTT, Python and Node-Red for Jetson Nano
 ## Python3
 -------------------------------------------------------
 # Installation
-# Install Node.js
-# Install Node-RED
-# Install node-red-dashboard
+### Install Node.js
+### Install Node-RED
+### Install node-red-dashboard
