@@ -27,4 +27,16 @@ sudo apt-get install net-tools
 ifconfig
 
 # ESP32
-### download library PubSubClient and copy to arduino IDE Library Folder
+Installing the PubSubClient Library
+The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED).
+
+Click here to download the PubSubClient library. You should have a .zip folder in your Downloads folder
+Unzip the .zip folder and you should get pubsubclient-master folder
+Rename your folder from pubsubclient-master to pubsubclient
+Move the pubsubclient folder to your Arduino IDE installation libraries folder
+Then, re-open your Arduino IDE
+The library comes with a number of example sketches. See File >Examples > PubSubClient within the Arduino IDE software.
+
+Important: PubSubClient is not fully compatible with the ESP32, but the example provided in this tutorial is working very reliably during our tests.
+
+
